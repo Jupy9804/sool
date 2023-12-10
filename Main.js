@@ -2,190 +2,157 @@ import React from "react";
 import "./style.css";
 
 
+
+
 function Main(props){
+
   return (
+    
     <div className="frame">
       <div className="main-page-wrapper">
         <div className="main-page">
           <div className="overlap">
-            <img className="rectangle" alt="Rectangle" src="https://github.com/Jupy9804/sool/blob/main/img/mainbackground.jpg?raw=true" />
-            <div className="overlap-group-wrapper">
-              <div className="overlap-group">
-                <div className="text-wrapper">Drink Story</div>
+            <img className="main-rectangle" alt="Rectangle" src="https://github.com/Jupy9804/sool/blob/main/img/mainbackground.jpg?raw=true" />
+            <div className="main-overlap-group-wrapper">
+              <div className="overlap-main">
+                <div className="mainbackground">
+                <img src="https://raw.githubusercontent.com/Jupy9804/sool/b48d7461ebcd091e0771bbd121722f4d38e98409/svg/text-wrapper.svg"/></div>
                 <img className="img" alt="Rectangle" src="https://github.com/Jupy9804/sool/blob/main/img/big-card.jpg?raw=true" />
-                <svg width="613" height="364" viewBox="0 0 613 364" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g filter="url(#filter0_d_3_87)">
-                <path d="M4 10C4 4.47715 8.47715 0 14 0H599C604.523 0 609 4.47715 609 10V346C609 351.523 604.523 356 599 356H14C8.47714 356 4 351.523 4 346V10Z" fill="white"/>
-                </g>
-                <defs>
-                <filter id="filter0_d_3_87" x="0" y="0" width="613" height="364" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                <feOffset dy="4"/>
-                <feGaussianBlur stdDeviation="2"/>
-                <feComposite in2="hardAlpha" operator="out"/>
-                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_87"/>
-                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3_87" result="shape"/>
-                </filter>
-                </defs>
-                </svg>
-
+                <img src="https://raw.githubusercontent.com/Jupy9804/sool/9b32567d5bace4679487c76b925378ddf0d6d928/svg/big-card.svg"/>
               </div>
             </div> 
-            <div className="overlap-wrapper">
-              <div className="div">
+            <div className="main-overlap-wrapper">
+              <div className="div1">
                 <div className="drink-search">
-                  Drink <br />
-                  Search
+                <img src="https://raw.githubusercontent.com/Jupy9804/sool/fc3cf0e9db5d5c6873ab814b1242119c3c79d963/svg/drink-search.svg"/>
+
                 </div>
-                <img className="ellipse" alt="Ellipse" src="https://github.com/Jupy9804/sool/blob/main/img/round1.png?raw=true" />
+                <img className="ellipse1" alt="Ellipse1" src="https://github.com/Jupy9804/sool/blob/main/img/round1.png?raw=true" />
                 <div className="vector-wrapper">
-                  <img className="vector" alt="Vector" src="https://thesool.com/images/front/icon/index-arrow-wht.svg" />
+                   <img className="vector" alt="Vector" src="https://thesool.com/images/front/icon/index-arrow-wht.svg" />
                 </div>
               </div>
             </div>
-            <div className="div-wrapper">
-              <div className="div">
-                <img className="ellipse" alt="Ellipse" src="https://github.com/Jupy9804/sool/blob/main/img/round2.png?raw=true" />
+            <div className="div-main-wrapper">
+              <div className="div1">
+                <img className="ellipse1" alt="Ellipse1" src="https://github.com/Jupy9804/sool/blob/main/img/round2.png?raw=true" />
                 <div className="img-wrapper">
                   <img className="vector" alt="Vector" src="https://thesool.com/images/front/icon/index-arrow-wht.svg" />
                 </div>
                 <div className="drink-gallery">
-                  Drink
-                  <br />
-                  Gallery
+                <img src="https://raw.githubusercontent.com/Jupy9804/sool/9516f5566d8cda2516c4aadeb102ca7cb3ac0e6b/svg/drink-gallery.svg"/>
+
                 </div>
               </div>
             </div>
-            <div className="group-2">
-              <div className="overlap-2">
-                <div className="group-3">
-                  <img className="vector" alt="Vector" src="https://thesool.com/images/front/icon/index-arrow-wht.svg" />
+            <div className="main1-group-2">
+              <div className="main-2">
+                <div className="main1-group-3">
+                  <img className="vector-3" alt="Vector" src="https://thesool.com/images/front/icon/index-arrow-wht.svg" />
                 </div>
-                <div className="k-drink-exp">
-                  K-Drink <br />
-                  Exp
+                <div className="main-k-drink-exp">
+                <img src="https://raw.githubusercontent.com/Jupy9804/sool/9f757a91101961c281ccfb11ac46cc631108ba59/svg/k-drinkexp.svg"/>
+
                 </div>
               </div>
             </div>
-            <div className="group-wrapper">
-              <div className="group-4">
-                <div className="overlap-group-2">
-                  <div className="group-3">
+            <div className="main-group-wrapper">
+              <div className="main-group-4">
+                <div className="main-group-2">
+                  <div className="main2-group-3">
                     <img className="vector" alt="Vector" src="https://thesool.com/images/front/icon/index-arrow-wht.svg" />
                   </div>
-                  <div className="text-wrapper-2">K-Drink Story</div>
+                  <div className="text-main-2">
+                    <img src="https://raw.githubusercontent.com/Jupy9804/sool/7e4d8742cec87b5226cc80c2bf479a65712635a3/svg/text-wrapper2.svg"/>
+</div>
                 </div>
               </div>
             </div>
-            <div className="group-5">
-              <div className="overlap-3">
-                <div className="group-6">
+            <div className="main-group-5">
+              <div className="main-3">
+                <div className="main-group-6">
                   <img className="vector-2" alt="Vector" src="https://thesool.com/images/front/icon/index-arrow-wht.svg" />
                 </div>
-                <div className="k-drink-info">
-                  K-Drink <br />
-                  Info
+                <div className="main-k-drink-info">
+                <img src="https://raw.githubusercontent.com/Jupy9804/sool/609dc074fcc7d27b1d6015d00931224ae08ab461/svg/k-drinkinfo.svg"/>
                 </div>
               </div>
             </div>
-            <img className="vector-3" alt="Vector" src="https://thesool.com/images/front/icon/index-arrow-wht.svg" />
-            <div className="group-7">
-              <div className="group-8">
-                <div className="overlap-group-3">
-                  <div className="text-wrapper-3">2023-08-23</div>
-                  <div className="overlap-4">
+            <img className="vector-4" alt="Vector" src="https://thesool.com/images/front/icon/index-arrow-wht.svg" />
+            <div className="main-group-7">
+              <div className="main-group-8">
+                <div className="main-group-3">
+                  <div className="text-main-3">2023-08-23</div>
+                  <div className="main-4">
                     <div className="flexcontainer">
                       <p className="text">
                         <span className="span">
-                          2023 대한민국 우리 술<br />
+                        <img src="https://raw.githubusercontent.com/Jupy9804/sool/2b5e9420cd00cab7a685904e9e2e505aac1079d4/svg/span.svg"/>
+
                         </span>
                       </p>
                   
                       
                     </div>
-                    <div className="text-wrapper-4">정책지원사업</div>
+                    <div className="text-main-4"><img src="https://raw.githubusercontent.com/Jupy9804/sool/51bd0266124a4055c7da12f06761164cf580abb1/svg/text-wrapper4.svg"/>
+</div>
                   </div>
                   <p className="p">  
-                  우리술의 가치와 우수성을 알리는 국내 최대의 전통주 행사 '대한민국 우리술 대축제'가 개최될 예정입니다. 
-                  양조장, 전통주 전문주점, 바틀샵, 전통주 관련 서비스 업체, 관련 기자재 업체 등
+                  <img src="https://raw.githubusercontent.com/Jupy9804/sool/0ffea41b394a433c5c8f28dc26d9fde32466f6fa/svg/p.svg"/>
                   </p>
                 </div>
               </div>
             </div>
-            <div className="group-9">
-              <div className="overlap-5">
-                <img className="rectangle-2" alt="Rectangle" src="https://github.com/Jupy9804/sool/blob/main/img/big-card2.jpg?raw=true" />
-                <div className="text-wrapper-5">Notice</div>
-                <svg width="613" height="364" viewBox="0 0 613 364" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g filter="url(#filter0_d_19_76)">
-                <path d="M4 10C4 4.47715 8.47715 0 14 0H599C604.523 0 609 4.47715 609 10V346C609 351.523 604.523 356 599 356H14C8.47714 356 4 351.523 4 346V10Z" fill="white"/>
-                </g>
-                <defs>
-                <filter id="filter0_d_19_76" x="0" y="0" width="613" height="364" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                <feOffset dy="4"/>
-                <feGaussianBlur stdDeviation="2"/>
-                <feComposite in2="hardAlpha" operator="out"/>
-                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_19_76"/>
-                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_19_76" result="shape"/>
-                </filter>
-                </defs>
-                </svg>
+            <div className="main-group-9">
+              <div className="main-5">
+                <img className="main-rectangle-2" alt="Rectangle" src="https://github.com/Jupy9804/sool/blob/main/img/big-card2.jpg?raw=true" />
+                <div className="text-main-5"><img src="https://raw.githubusercontent.com/Jupy9804/sool/0747afbd3663229e2514a1eae44426def403e444/svg/text-wrapper5.svg" />
+</div>
+                <img src="https://raw.githubusercontent.com/Jupy9804/sool/b22493252aa9bd24e2bbee0e74a3b7d25fd6f2c7/svg/box1.svg" />
 
               </div>
             </div>
-            <div className="group-10">
-              <div className="overlap-6">
-                <div className="q-a">Q&amp;A</div>
-                <img className="rectangle-3" alt="Rectangle" src="https://github.com/Jupy9804/sool/blob/main/img/info-card.jpg?raw=true" />
-                <svg width="298" height="467" viewBox="0 0 298 467" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_10_20)">
-<path d="M4 15C4 6.71573 10.7157 0 19 0H279C287.284 0 294 6.71573 294 15V444C294 452.284 287.284 459 279 459H19C10.7157 459 4 452.284 4 444V15Z" fill="white"/>
-</g>
-<defs>
-<filter id="filter0_d_10_20" x="0" y="0" width="298" height="467" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="2"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_10_20"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_10_20" result="shape"/>
-</filter>
-</defs>
-</svg>
+            <div className="main-group-10">
+              <div className="main-6">
+                <div className="q-a"><img src="https://raw.githubusercontent.com/Jupy9804/sool/8f7cc3bd43ccd3622c34189bf22ac55673477e64/svg/q-a.svg"/>
+</div>
+                <img className="main-rectangle-3" alt="Rectangle" src="https://github.com/Jupy9804/sool/blob/main/img/info-card.jpg?raw=true" />
+               <img src="https://raw.githubusercontent.com/Jupy9804/sool/17fff4ce8c4312e914bac8bbb02f9b3f37debc87/svg/rectangle-3.svg"/>
 
               </div>
             </div>
-            <div className="group-11">
-              <div className="text-wrapper-6">Home</div>
-              <div className="text-wrapper-7">K-Traditional Drink Gallery</div>
-              <div className="k-traditional-drink">K-Traditional Drink&nbsp;&nbsp;Exp</div>
-              <div className="text-wrapper-8">K-Traditional Info</div>
-              <div className="group-12">
-                <div className="overlap-group-4">
-                  <div className="text-wrapper-9">Sool</div>
+            <div className="main-group-11">
+              
+              
+              <div className="text-main-6"><img src="https://raw.githubusercontent.com/Jupy9804/sool/3ca4f93cd8b76e5071a995f9e08ef5c45bc81305/svg/text-wrapper6.svg"/>
+</div>
+              <div className="text-main-7"><img src="https://raw.githubusercontent.com/Jupy9804/sool/3ca4f93cd8b76e5071a995f9e08ef5c45bc81305/svg/text-wrapper7.svg"/>
+
+</div>
+              <div className="main-k-traditional-drink"><img src="https://raw.githubusercontent.com/Jupy9804/sool/3ca4f93cd8b76e5071a995f9e08ef5c45bc81305/svg/k-traditonal-drink.svg"/>
+</div>
+              <div className="text-main-8"><img src="https://raw.githubusercontent.com/Jupy9804/sool/3ca4f93cd8b76e5071a995f9e08ef5c45bc81305/svg/text-wrapper8.svg"/>
+</div>
+              <div className="main-group-12">
+                <div className="main-group-4">
+                  <div className="text-main-9">Sool</div>
                 </div>
               </div>
             </div>
-            <div className="group-13">
-              <div className="overlap-7">
-                <div className="text-wrapper-9">Sool</div>
+            <div className="main-group-13">
+              <div className="main-7">
+                <div className="text-main-9">Sool</div>
               </div>
             </div>
-            <p className="text-wrapper-10">
+            <p className="text-main-10">
               ‘술’은 한국 전통주의 가치를 알리기 위해 <br />
               운영하는 정보와 소개 사이트입니다.
             </p>
-            <div className="text-wrapper-11">SNS</div>
-            <img className="sns-instar" alt="Sns instar" src="https://github.com/Jupy9804/sool/blob/main/img/sns-instar.png?raw=true" />
-            <img className="sns-blog" alt="Sns blog" src="https://github.com/Jupy9804/sool/blob/main/img/sns-blog.png?raw=true" />
-            <img className="sns-facebook" alt="Sns facebook" src="https://github.com/Jupy9804/sool/blob/main/img/sns-facebook.png?raw=true" />
+            <div className="text-sns"><img src="https://raw.githubusercontent.com/Jupy9804/sool/7a8c2d54600aa664379a69940b04158e899ffa3a/svg/text-wrapper11.svg"/>
+</div>
+            <img className="main-sns-instar" alt="Sns instar" src="https://github.com/Jupy9804/sool/blob/main/img/sns-instar.png?raw=true" />
+            <img className="main-sns-blog" alt="Sns blog" src="https://github.com/Jupy9804/sool/blob/main/img/sns-blog.png?raw=true" />
+            <img className="main-sns-facebook" alt="Sns facebook" src="https://github.com/Jupy9804/sool/blob/main/img/sns-facebook.png?raw=true" />
           </div>
         </div>
       </div>
