@@ -1,10 +1,26 @@
-import React from "react";
-import "./style2.css";
+import "./style4.css";
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
 
-function Sub1(props){
+  
+function Sub4(props){
+
+  const [images, setImages] = useState([]);
+
+  useEffect(() => {
+      axios.get('http://localhost:8080/api/sakes') // API 엔드포인트 변경 필요
+          .then(response => {
+              setImages(response.data);
+              console.log(response.data);
+          })
+          .catch(error => {
+              console.error('Error fetching data: ', error);
+          });
+  }, []);
 
     return (
+      
     <div className="frame">
       <div className="sub1-wrapper">
         <div className="sub1">
@@ -56,8 +72,14 @@ function Sub1(props){
                   </div>
                 </div>
                 <p className="text-sub1-7">
-                <img src="https://raw.githubusercontent.com/Jupy9804/sool/82a2aaf93c7d1aa78b4aa43379bce4bb44246c46/svg/text-wrappersub7.svg"/>
 
+                <div>
+            
+
+        </div>
+
+          
+            
                 </p>
                 <div className="text-sub1-8"><img src="https://raw.githubusercontent.com/Jupy9804/sool/98f0401e8a3d452d84b135c4ef4aef41218990e7/svg/subtext-wrapper8.svg"/>
 </div>
@@ -68,63 +90,86 @@ function Sub1(props){
             </div>
           </div>
           <div className="sub1-5">
-            <div className="text-sub1-9">전통주 전시</div>
-            <p className="text-sub1-10">
-              &nbsp;&nbsp;대한민국 식품명인의
-              <br />
-              &nbsp;&nbsp;전통주
-              <br />
-              &nbsp;&nbsp;대한민국 우리 술 품평회
-              <br />
-              &nbsp;&nbsp;수상작
-              <br />
-              &nbsp;&nbsp;찾아가는 양조장 제품
-              <br />
-              &nbsp;&nbsp;술 품질인증 제품
-            </p>
-            <img className="ellipse" alt="Ellipse" src="https://github.com/Jupy9804/sool/blob/main/img/g-round1.png?raw=true" />
-            <img src="https://raw.githubusercontent.com/Jupy9804/sool/4b91580578636e5907a5601c29704b04ad33a71d/svg/ellipse.svg"/>
+      <div className="text-sub1-9">이름</div>
+      {images.map((image, index) => (
+        <div key={index} className="custom-image-container">
+          {/* 이미지와 관련된 속성을 사용하여 표시 */}
+          <img
+            src={image.sake_image}
+            
+            className="custom-image"
+          />
+        
+        </div>
+      ))}
+
+ 
+      </div>
+           
           </div>
           <div className="sub1-6">
-            <div className="text-sub1-11">전통주 판매</div>
+            <div className="text-sub1-11">이름</div>
+            {images.map((image, index) => (
+        <div key={index} className="custom-image-container">
+          {/* 이미지와 관련된 속성을 사용하여 표시 */}
+          <img
+            src={image.sake_image}
+            
+            className="custom-image2"
+          />
+        
+        </div>
+      ))}
             <p className="text-sub1-12">
-              전국의 품질 높은 다양한
-              <br />
-              전통주 판매
+            
             </p>
-            <img className="ellipse" alt="Ellipse" src="https://github.com/Jupy9804/sool/blob/main/img/g-round2.png?raw=true" />
-            <img src="https://raw.githubusercontent.com/Jupy9804/sool/9dff7c32e01cd040cf219feddfa202c2fb5283c9/svg/round2.svg"/>
+            
+           
           </div>
           <div className="sub1-7">
-            <img className="ellipse" alt="Ellipse" src="https://github.com/Jupy9804/sool/blob/main/img/g-round3.png?raw=true" />
-            <img src="https://raw.githubusercontent.com/Jupy9804/sool/6072369d418dd7fc721d515f84c62442f43e5283/svg/round3.svg"/>
-            <div className="text-sub1-13">시음 체험 프로그램</div>
-            <p className="text-sub1-14">
-              매달 새로운 주제로 ‘이달의 시음주’를 선정
-              <br />
-              외국인 대상 프로그램 운영
-              <br />
-              (영어/일본어/중국어)
-            </p>
+          <div className="text-sub1-13">시음 체험 프로그램</div>
+          {images.map((image, index) => (
+        <div key={index} className="custom-image-container">
+          {/* 이미지와 관련된 속성을 사용하여 표시 */}
+          <img
+            src={image.sake_image}
+            
+            className="custom-image2"
+          />
+        
+        </div>
+      ))}
+           
+         
+          
           </div>
           <div className="sub1-8">
-            <img className="ellipse" alt="Ellipse" src="https://github.com/Jupy9804/sool/blob/main/img/g-round4.png?raw=true" />
-           <img src="https://raw.githubusercontent.com/Jupy9804/sool/8b3f0833b1bb034b4f62da6c45f43c9dcbdbeeaa/svg/round4.svg"/>
-            <div className="text-sub1-15">
-              전통주 컨설팅/
-              <br />
-              비즈니스 자문
+          <div className="text-sub1-15">이름</div>
+          {images.map((image, index) => (
+        <div key={index} className="custom-image-container">
+          {/* 이미지와 관련된 속성을 사용하여 표시 */}
+          <img
+            src={image.sake_image}
+            
+            className="custom-image2"
+          />
+        
+        </div>
+      ))}
+          
+           
             </div>
             <p className="text-sub1-16">
-              전통주 제조, 유통업체, 창업예비자, 외식업체 등을 대상으로 전통주 교육, 페어링 자문 등 다양한 전통주 관련
-              자문서비스 제공
+            
             </p>
           </div>
         </div>
       </div>
-    </div>
-    </div>
+  
+
+  
     
   );
 };
-export default Sub1;
+
+export default Sub4;

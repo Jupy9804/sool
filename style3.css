@@ -6,12 +6,12 @@
     width: 100%;
   }
   
-  .frame .main-page-wrapper {
+  .frame .sub2-page-wrapper {
     height: 1803px;
     width: 1920px;
   }
   
-  .frame .main-page {
+  .frame .sub2-page {
     background-color: #ffffff;
     height: 1803px;
     overflow: hidden;
@@ -26,7 +26,7 @@
     width: 1922px;
   }
   
-  .frame .overlap-group {
+  .frame .sub2-group {
     background-image: url(https://github.com/Jupy9804/sool/blob/main/img/sub-hero-m.jpg?raw=true);
     background-size: 100% 100%;
     height: 500px;
@@ -46,7 +46,7 @@
     top: 221px;
   }
   
-  .frame .overlap {
+  .frame .sub2 {
     background-image: url(https://github.com/Jupy9804/sool/blob/main/img/introduce-2.jpg?raw=true);
     background-position: 50% 50%;
     background-size: cover;
@@ -57,7 +57,7 @@
     width: 763px;
   }
   
-  .frame .overlap-wrapper {
+  .frame .sub2-wrapper {
     height: 300px;
     left: 156px;
     position: relative;
@@ -132,7 +132,7 @@
     width: 762px;
   }
   
-  .frame .overlap-group-wrapper {
+  .frame .sub2-group-wrapper {
     height: 300px;
     left: 157px;
     position: relative;
@@ -187,12 +187,11 @@
     width: 1928px;
   }
   
-  .frame .overlap-2 {
-    
-    background-size: 100% 100%;
-    height: 100px;
-    position: relative;
-    width: 1920px;
+  .frame .sub2-2 {
+
+position: absolute;
+
+
   }
   
   .frame .text-wrapper-7 {
@@ -258,20 +257,21 @@
     width: 117px;
   }
   
-  .frame .overlap-group-2 {
+  .frame .sub2-group-2 {
     background-image: url(https://github.com/Jupy9804/sool/blob/main/img/logo.jpg?raw=true);
     background-position: 50% 50%;
     background-size: cover;
-    height: 94px;
+    height: 90px;
     left: -4px;
-    position: relative;
+    position: absolute;
     width: 123px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-border-radius: 20px;
+    border-radius: 20px;
+
 
   }
   
-  .frame .text-wrapper-10 {
+  .frame .text-sub2-10 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 20px;
@@ -293,13 +293,25 @@ border-radius: 20px;
     width: 1924px;
   }
   
-  .frame .overlap-3 {
-    
-    background-size: 100% 100%;
-    height: 141px;
-    position: relative;
-    top: -1px;
-    width: 1920px;
+  .frame .text-sub2-6 {
+/* 전통주란? */
+
+position: absolute;
+width: 168px;
+height: 70px;
+left: 876px;
+top: 660px;
+
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 58px;
+/* identical to box height */
+
+color: #000000;
+
+
   }
   
   .frame .group-4 {
@@ -310,7 +322,7 @@ border-radius: 20px;
     width: 117px;
   }
   
-  .frame .overlap-group-3 {
+  .frame .sub2-group-3 {
     background-image: url(https://github.com/Jupy9804/sool/blob/main/img/logo.jpg?raw=true);
     background-position: 50% 50%;
     background-size: cover;
@@ -318,60 +330,101 @@ border-radius: 20px;
     left: -4px;
     position: relative;
     width: 123px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 20px;
+
+
+
+/* Rectangle 32 */
+background-image: url(https://github.com/Jupy9804/sool/blob/main/img/logo.jpg?raw=true);
+position: absolute;
+width: 115px;
+height: 89.89px;
+left: 345px;
+top: 1688px;
+
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 20px;
+
+
   }
   
-  .frame .text-wrapper-11 {
-    color: #000000;
-    font-family: var(--h-01-font-family);
-    font-size: var(--h-01-font-size);
-    font-style: var(--h-01-font-style);
-    font-weight: var(--h-01-font-weight);
-    left: 491px;
-    letter-spacing: var(--h-01-letter-spacing);
-    line-height: var(--h-01-line-height);
-    position: absolute;
-    top: 36px;
+  .frame .text-sub2-11 {
+/* ‘술’은 한국 전통주의 가치를 알리기 위해 운영하는 정보와 소개 사이트입니다. */
+
+position: absolute;
+width: 402px;
+height: 70px;
+left: 491px;
+top: 1698px;
+
+/* h01 */
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 35px;
+
+color: #000000;
+
+
   }
   
-  .frame .text-wrapper-12 {
-    color: #000000;
-    font-family: var(--h-01-font-family);
-    font-size: var(--h-01-font-size);
-    font-style: var(--h-01-font-style);
-    font-weight: var(--h-01-font-weight);
-    left: 1173px;
-    letter-spacing: var(--h-01-letter-spacing);
-    line-height: var(--h-01-line-height);
-    position: absolute;
-    top: 53px;
+  .frame .text-sub2-12 {
+/* SNS */
+
+position: absolute;
+width: 48px;
+height: 35px;
+left: 1173px;
+top: 1715px;
+
+/* h01 */
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 35px;
+/* identical to box height */
+
+color: #000000;
+
+
   }
   
-  .frame .sns-instar {
-    height: 60px;
-    left: 1514px;
-    object-fit: cover;
-    position: absolute;
-    top: 39px;
-    width: 60px;
+  .frame .sub2-sns-instar {
+/* sns-instar 2 */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: 1514px;
+top: 1701px;
+
+
   }
   
-  .frame .sns-blog {
-    height: 60px;
-    left: 1278px;
-    object-fit: cover;
-    position: absolute;
-    top: 39px;
-    width: 60px;
+  .frame .sub2-sns-blog {
+/* sns-blog 2 */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: 1278px;
+top: 1701px;
+
+
   }
   
-  .frame .sns-facebook {
-    height: 60px;
-    left: 1396px;
-    object-fit: cover;
-    position: absolute;
-    top: 41px;
-    width: 60px;
+  .frame .sub2-sns-facebook {
+/* sns-facebook 2 */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: 1396px;
+top: 1703px;
+
+
+
   }
   
